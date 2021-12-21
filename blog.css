@@ -47,6 +47,25 @@ table {
 	border-spacing: 0;
 }
 *--------------------*
+header {
+    text-align: center;
+    background-color: darkblue;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  header a {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 16px;
+    text-decoration: none;
+  }
+  .green {
+    color: #25a50b;
+  }
+  .white {
+    color: green;
+  }
+
 .content-box {
     width: 400px;
     display: inline-block;
