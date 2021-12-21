@@ -46,7 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*--------------------*
+
+
+body{
+  text-align: ;
+}
 header {
     text-align: center;
     background-color: darkblue;
@@ -63,14 +67,16 @@ header {
     color: #25a50b;
   }
   .white {
-    color: green;
+    color: white;
   }
+.blog-center{
 
+}
 .content-box {
     width: 400px;
     display: inline-block;
     margin: 20px;
-    vertical-align: text-bottom;
+    vertical-align: top;
   }
   .blog-heading {
     text-align: left;
@@ -83,6 +89,7 @@ header {
     text-align: left;
     margin-bottom: 20px;
     font-size: 16px;
+    line-height: 20px;
   }
   .link {
     font-size: 16px;
@@ -96,7 +103,11 @@ header {
     text-decoration: none;
   }
   .blog-container {
-    padding: 0 200px;
+    /* padding: 0 200px; */
+       
+    width: 880px;
+    height: 300px;
+    margin: 0 auto;
   }
   img {
     height: 300px;
@@ -121,5 +132,8 @@ header {
     font-size: 20px;
   }
   .blog-post {
-    padding: 0 190px;
+    
+    width: 900px;
+    height: 100px;
+    margin: 0 auto;
   }
